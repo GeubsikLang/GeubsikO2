@@ -35,6 +35,8 @@ pub enum Statement<'a> {
     Read(Read<'a>),
     If(If<'a>),
     LoopWhile(LoopWhile<'a>),
+    Break,
+    Continue,
 }
 
 pub struct Assignment<'a> {
