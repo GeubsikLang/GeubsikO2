@@ -5,3 +5,7 @@ authors = ["kiwiyou <kiwiyou.dev@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+
+[lib]
+name = "geubsik"
+path = "src/lib.rs"
